@@ -7,3 +7,21 @@ body {
   line-height: 20px;
   margin: 0px;
 }
+
+.game-panel {
+  background: lightgray; 
+  background: -webkit-linear-gradient(lightgray, white); 
+  background: -o-linear-gradient(lightgray, white); 
+  background: -moz-linear-gradient(lightgray, white); 
+  background: linear-gradient(lightgray, white); 
+}
+
+.reset {
+  transition: transform 2s;
+  transform: rotateY( 0deg );
+}
+
+.colored {
+  transition: transform 2s;
+  transform: rotateY( 180deg );
+}
